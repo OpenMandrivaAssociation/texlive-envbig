@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/envbig
+# catalog-date 2008-11-11 20:51:43 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-envbig
 Version:	20081111
 Release:	1
@@ -35,6 +41,7 @@ A simple package, that prints both 'from' and 'to' addresses.
 %files
 %{_texmfdistdir}/tex/latex/envbig/envbig.sty
 %doc %{_texmfdistdir}/doc/latex/envbig/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,3 +52,5 @@ A simple package, that prints both 'from' and 'to' addresses.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
