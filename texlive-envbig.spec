@@ -43,3 +43,17 @@ A simple package, that prints both 'from' and 'to' addresses.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081111-2
++ Revision: 751488
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081111-1
++ Revision: 718339
+- texlive-envbig
+- texlive-envbig
+- texlive-envbig
+- texlive-envbig
+
