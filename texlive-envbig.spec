@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-envbig
-Version:	20081111
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Printing addresses on envelopes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/envbig
