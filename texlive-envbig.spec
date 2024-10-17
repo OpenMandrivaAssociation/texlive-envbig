@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Printing addresses on envelopes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/envbig
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/envbig
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/envbig.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/envbig.doc.r%{version}.tar.xz
